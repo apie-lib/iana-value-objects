@@ -588,6 +588,15 @@ return array(
     'Comments' => '',
     'Active' => true,
   ),
+  'connect-udp-bind' =>
+  array(
+    'Field Name' => 'Connect-UDP-Bind',
+    'Status' => 'permanent',
+    'Structured Type' => 'Item',
+    'Reference' => '[RFC-ietf-masque-connect-udp-listen-16: Proxying Bound UDP in HTTP]',
+    'Comments' => '',
+    'Active' => true,
+  ),
   'connection' =>
   array(
     'Field Name' => 'Connection',
@@ -1152,7 +1161,7 @@ return array(
     'Field Name' => 'Incremental',
     'Status' => 'permanent',
     'Structured Type' => 'Item',
-    'Reference' => '[RFC-ietf-httpbis-incremental-04: Incremental Forwarding of HTTP Messages]',
+    'Reference' => '[RFC 10036: Incremental Forwarding of HTTP Messages]',
     'Comments' => '',
     'Active' => true,
   ),
@@ -1621,6 +1630,15 @@ return array(
     'Status' => 'obsoleted',
     'Structured Type' => '',
     'Reference' => '[Notification for Proxy Caches]',
+    'Comments' => '',
+    'Active' => true,
+  ),
+  'proxy-public-address' =>
+  array(
+    'Field Name' => 'Proxy-Public-Address',
+    'Status' => 'permanent',
+    'Structured Type' => 'List',
+    'Reference' => '[RFC-ietf-masque-connect-udp-listen-16: Proxying Bound UDP in HTTP]',
     'Comments' => '',
     'Active' => true,
   ),

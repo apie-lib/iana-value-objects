@@ -255,6 +255,18 @@ return array(
     'Notes' => '',
     'Active' => true,
   ),
+  'ars' =>
+  array(
+    'URI Scheme' => 'ars',
+    'Template' => 'prov/ars',
+    'Description' => 'ars',
+    'Status' => 'Provisional',
+    'CRI Scheme Number' => '1025',
+    'Well-Known URI Support' => '-',
+    'Reference' => '[draft-juwan-ars-uri-00]',
+    'Notes' => '',
+    'Active' => true,
+  ),
   'at' =>
   array(
     'URI Scheme' => 'at',
@@ -1668,6 +1680,18 @@ return array(
     'CRI Scheme Number' => '13846',
     'Well-Known URI Support' => '-',
     'Reference' => '[RFC4452]',
+    'Notes' => '',
+    'Active' => true,
+  ),
+  'interaction' =>
+  array(
+    'URI Scheme' => 'interaction',
+    'Template' => 'prov/interaction',
+    'Description' => 'interaction',
+    'Status' => 'Provisional',
+    'CRI Scheme Number' => '1023',
+    'Well-Known URI Support' => '-',
+    'Reference' => '[W3C_Verifiable_Credentials_Working_Group]',
     'Notes' => '',
     'Active' => true,
   ),
@@ -4863,6 +4887,18 @@ temporal ordering proof protocol augmenting TLS 1.3 with Proof-of-Time records.'
     'CRI Scheme Number' => '17361',
     'Well-Known URI Support' => '-',
     'Reference' => '[Soni_L.]',
+    'Notes' => '',
+    'Active' => true,
+  ),
+  'web+interaction' =>
+  array(
+    'URI Scheme' => 'web+interaction',
+    'Template' => 'prov/web+interaction',
+    'Description' => 'web+interaction',
+    'Status' => 'Provisional',
+    'CRI Scheme Number' => '1024',
+    'Well-Known URI Support' => '-',
+    'Reference' => '[W3C_Verifiable_Credentials_Working_Group]',
     'Notes' => '',
     'Active' => true,
   ),

@@ -3836,7 +3836,7 @@ return array(
   array(
     'Name' => 'tzif-leap',
     'Template' => 'application/tzif-leap',
-    'Reference' => '[RFC9636]',
+    'Reference' => '[RFC9636][RFC Errata 9028]',
     'Active' => true,
   ),
   'application/uccs+cbor' =>
@@ -3892,7 +3892,7 @@ return array(
   array(
     'Name' => 'v3c',
     'Template' => 'application/v3c',
-    'Reference' => '[RFC-ietf-avtcore-rtp-v3c-17]',
+    'Reference' => '[RFC10034]',
     'Active' => true,
   ),
   'application/vc' =>
@@ -6214,7 +6214,7 @@ return array(
   ),
   'application/vnd.edulith.edux+json' =>
   array(
-    'Name' => 'vnd.edulith.edux+json',
+    'Name' => 'vnd.edulith.edux+json (OBSOLETED by request)',
     'Template' => 'application/vnd.edulith.edux+json',
     'Reference' => '[Heike_Håland_Østensen]',
     'Active' => true,
@@ -6630,6 +6630,13 @@ return array(
     'Name' => 'vnd.ficlab.flb+zip',
     'Template' => 'application/vnd.ficlab.flb+zip',
     'Reference' => '[Steve_Gilberd]',
+    'Active' => true,
+  ),
+  'application/vnd.fiduswriter+zip' =>
+  array(
+    'Name' => 'vnd.fiduswriter+zip',
+    'Template' => 'application/vnd.fiduswriter+zip',
+    'Reference' => '[Johannes_Wilm]',
     'Active' => true,
   ),
   'application/vnd.filmit.zfc' =>
@@ -10522,6 +10529,13 @@ return array(
     'Name' => 'vnd.prismatic',
     'Template' => 'application/vnd.prismatic',
     'Reference' => '[Thomas_Hern]',
+    'Active' => true,
+  ),
+  'application/vnd.prml+yaml' =>
+  array(
+    'Name' => 'vnd.prml+yaml',
+    'Template' => 'application/vnd.prml+yaml',
+    'Reference' => '[Cuneyt_Ozturk]',
     'Active' => true,
   ),
   'application/vnd.project-graph' =>
