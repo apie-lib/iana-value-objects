@@ -6216,7 +6216,7 @@ return array(
   array(
     'Name' => 'vnd.edulith.edux+json (OBSOLETED by request)',
     'Template' => 'application/vnd.edulith.edux+json',
-    'Reference' => '[Heike_Håland_Østensen]',
+    'Reference' => '[IESG (original contact/change controller removed by request)]',
     'Active' => true,
   ),
   'application/vnd.efi.img' =>
@@ -6520,6 +6520,13 @@ return array(
     'Reference' => '[James_Bellinger]',
     'Active' => true,
   ),
+  'application/vnd.excelano.slipcase+zip' =>
+  array(
+    'Name' => 'vnd.excelano.slipcase+zip',
+    'Template' => 'application/vnd.excelano.slipcase+zip',
+    'Reference' => '[David_M._Anderson]',
+    'Active' => true,
+  ),
   'application/vnd.exstream-empower+zip' =>
   array(
     'Name' => 'vnd.exstream-empower+zip',
@@ -6636,6 +6643,20 @@ return array(
   array(
     'Name' => 'vnd.fiduswriter+zip',
     'Template' => 'application/vnd.fiduswriter+zip',
+    'Reference' => '[Johannes_Wilm]',
+    'Active' => true,
+  ),
+  'application/vnd.fiduswriter.book+zip' =>
+  array(
+    'Name' => 'vnd.fiduswriter.book+zip',
+    'Template' => 'application/vnd.fiduswriter.book+zip',
+    'Reference' => '[Johannes_Wilm]',
+    'Active' => true,
+  ),
+  'application/vnd.fiduswriter.template+zip' =>
+  array(
+    'Name' => 'vnd.fiduswriter.template+zip',
+    'Template' => 'application/vnd.fiduswriter.template+zip',
     'Reference' => '[Johannes_Wilm]',
     'Active' => true,
   ),
@@ -14771,6 +14792,13 @@ return array(
     'Name' => 'vnd.sap.vds',
     'Template' => 'model/vnd.sap.vds',
     'Reference' => '[SAP_SE][Igor_Afanasyev]',
+    'Active' => true,
+  ),
+  'model/vnd.sdf3d.s3d' =>
+  array(
+    'Name' => 'vnd.sdf3d.s3d',
+    'Template' => 'model/vnd.sdf3d.s3d',
+    'Reference' => '[ff6f8d68]',
     'Active' => true,
   ),
   'model/vnd.usda' =>
